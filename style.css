@@ -46,7 +46,8 @@ main {
     width: calc(20% - 15px);
     height: 300px;
     padding: 5px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    cursor: pointer; 
 }
 
 .disc .disc-img img {

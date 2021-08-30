@@ -5,4 +5,5 @@ function printJson($array) {
     echo json_encode($array);
 }
 
+
 ?>
