@@ -28,7 +28,6 @@
 
                     foreach($database as $disc) {
                         echo "
-
                         <div class=\"disc\">
                             <div class=\"disc-img\">
                                 <img src=\"{$disc[poster]}\" alt=\"Album Cover\">
@@ -39,9 +38,6 @@
                                 <div class=\"disc-year\">{$disc[year]}</div>
                             </div>
                         </div>
-
-
-                        
                         ";
 
                     }
