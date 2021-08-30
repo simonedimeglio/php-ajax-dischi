@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(76, 76, 76);
+}
+
+.fa-spotify {
+    color: greenyellow;
+}
+
+
+.custom-container {
+    width: 70%;
+    margin: 50px auto;
+    color: white;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid red;
+    width: calc(20% - 15px);
+    height: 200px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.disc .disc-img img {
+    width: 70%;
+}
