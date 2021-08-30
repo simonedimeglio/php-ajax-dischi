@@ -19,12 +19,10 @@ body {
 .fa-spotify {
     color: greenyellow;
     font-size: 30px;
-
 }
 
 main {
     background-color: #1e2d3b;
-    height: 100vh;
 }
 
 
@@ -48,7 +46,7 @@ main {
     width: calc(20% - 15px);
     height: 300px;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 .disc .disc-img img {
